@@ -1,0 +1,59 @@
+# MDK-ARM (Keil) 编译输出
+*.o
+*.d
+*.crf
+*.lst
+*.axf
+*.hex
+*.bin
+*.elf
+*.map
+*.lnp
+*.htm
+*.fed
+*.dep
+*.iex
+*.l2p
+*.build_log.htm
+
+# MDK-ARM 用户配置文件 (每个开发者的设置不同)
+*.uvguix.*
+*.uvgui.*
+*.bak
+*._2i
+
+# 构建输出目录
+MDK-ARM/myproject/*.o
+MDK-ARM/myproject/*.d
+MDK-ARM/myproject/*.crf
+MDK-ARM/myproject/*.axf
+MDK-ARM/myproject/*.hex
+MDK-ARM/myproject/*.bin
+MDK-ARM/myproject/*.map
+MDK-ARM/myproject/*.lnp
+MDK-ARM/myproject/*.dep
+MDK-ARM/myproject/*.htm
+MDK-ARM/myproject/*.sct
+MDK-ARM/myproject/*.fed
+MDK-ARM/myproject/*.iex
+MDK-ARM/myproject/*.lst
+MDK-ARM/myproject/*.l2p
+MDK-ARM/myproject/*._2i
+
+# Debug 配置文件 (可选，根据团队需求)
+# DebugConfig/
+
+# RTE 生成文件
+RTE/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE 特定文件
+.vscode/
+.idea/
+*.code-workspace
