@@ -1,0 +1,10 @@
+myproject\lfs.o: ..\Compoents\flash\lfs.c
+myproject\lfs.o: ..\Compoents\flash\lfs.h
+myproject\lfs.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+myproject\lfs.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+myproject\lfs.o: ..\Compoents\flash\lfs_util.h
+myproject\lfs.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+myproject\lfs.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+myproject\lfs.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+myproject\lfs.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+myproject\lfs.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

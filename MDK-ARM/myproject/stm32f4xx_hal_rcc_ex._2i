@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../APP -I ../Compoents/ebtn
+-I.\RTE\_myproject
+-IC:\Keil_v5\ARM\CMSIS\6.1.0\CMSIS\Core\Include
+-IC:\Keil_v5\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include
+-D__UVISION_VERSION="541" -DGD32F470 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F429xx
+-o myproject\stm32f4xx_hal_rcc_ex.o --omf_browse myproject\stm32f4xx_hal_rcc_ex.crf --depend myproject\stm32f4xx_hal_rcc_ex.d --feedback "myproject\myproject.fed" "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c"

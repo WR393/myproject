@@ -1,0 +1,11 @@
+myproject\wououi_graph.o: ..\Compoents\WouoUI-Page\WouoUI_graph.c
+myproject\wououi_graph.o: ..\Compoents\WouoUI-Page\WouoUI_graph.h
+myproject\wououi_graph.o: ..\Compoents\WouoUI-Page\WouoUI_font.h
+myproject\wououi_graph.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+myproject\wououi_graph.o: ..\Compoents\WouoUI-Page\WouoUI_common.h
+myproject\wououi_graph.o: ..\Compoents\WouoUI-Page\WouoUI_conf.h
+myproject\wououi_graph.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+myproject\wououi_graph.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+myproject\wououi_graph.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+myproject\wououi_graph.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+myproject\wououi_graph.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
